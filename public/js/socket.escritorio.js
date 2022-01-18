@@ -10,7 +10,7 @@ if (!searchParams.has("escritorio")) {
 }
 
 var escritorio = searchParams.get("escritorio");
-var label = $("small");
+var label = $("h2");
 
 
 console.log(escritorio);

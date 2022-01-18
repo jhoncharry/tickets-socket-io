@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Programa de Colas</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
+    <!-- Favicons -->
+    <link href="img/icons8-wifi-64.png" rel="icon" />
 
-<body class="container">
-    <h1>Escritorio</h1>
-    <h4>Atendiendo a <small>....</small></h4>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+      rel="stylesheet"
+    />
 
-    <button class="btn btn-primary">
-        Atender siguiente ticket
-    </button>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="container">
+    <section id="pricing" class="padd-section text-center wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4"></div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="block-pricing">
+              <div class="table">
+                <div class="section-title text-center">
+                  <h1>Escritorio</h1>
+                  <hr />
+                  <h4>
+                    Atendiendo a
+                    <h2
+                      style="
+                        color: black;
+                        font-family: 'Philosopher', sans-serif;
+                        font-size: larger;
+                      "
+                    >
+                      ....
+                    </h2>
+                  </h4>
+                </div>
+
+                <div class="table_btn">
+                  <button class="btn" formtarget="_blank">
+                    <i class="fa fa-check"></i> Atender siguiente ticket
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4"></div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/libs/jquery.min.js"></script>
 
-
     <script src="socket.io/socket.io.js"></script>
     <script src="js/socket.escritorio.js"></script>
-
-
-</body>
-
+  </body>
 </html>

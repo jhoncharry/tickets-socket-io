@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #48a432;
+  color: white;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.ticket-actual {
+  background-color: white !important;
+}
+
+.ticket-actual-numero {
+  font-size: 80px;
+}
+
+.ticket-actual-escritorio {
+  font-size: 45px;
+}
+
+.ticket-secundario {
+  font-size: 25px;
+}
+
+/* Nuevo-ticket */
+
+#lblNuevoTicket {
+  font-size: 70px;
+}
+
+#custom-img-me {
+  width: auto;
+  height: calc(100vh - 40px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(../img/hero-img.png) center center no-repeat;
+  background-size: 80%;
+  position: relative;
+  margin-top: 40px;
+}
+
+#custom-img-create {
+  width: 100%;
+  background-color: white !important;
+  background: url(../img/hero-bg.png) center bottom no-repeat;
+}
+
+#custom-button button {
+  background: #71c55d;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+}
+
+#custom-button button:hover {
+  background: #55b03f;
+}
+
+#custom-button button .fa {
+  font-size: 13px;
+  margin-right: 5px;
+}
